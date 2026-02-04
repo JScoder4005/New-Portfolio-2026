@@ -34,11 +34,8 @@ export const HeroSection = () => {
             className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto"
           />
 
-          <div className="flex items-center justify-center gap-4 pt-8">
-            <button className="px-8 py-4 bg-gradient-to-r from-primary to-secondary rounded-full font-medium hover:scale-105 transition-transform duration-300">
-              View Projects
-            </button>
-            <button className="px-8 py-4 glass rounded-full font-medium hover:bg-white/10 transition-all duration-300">
+          <div className="flex items-center justify-center pt-8">
+            <button className="px-8 py-4 glass rounded-full font-medium hover:bg-white/10 transition-all duration-300 hover:scale-105">
               Download CV
             </button>
           </div>

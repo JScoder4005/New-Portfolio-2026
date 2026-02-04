@@ -7,7 +7,7 @@ import { StarsBackground } from '@/components/ui/stars-background';
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect';
 import { EncryptedText } from '@/components/ui/encrypted-text';
 
-export const HeroSection = (): JSX.Element => {
+export const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated Star Background */}

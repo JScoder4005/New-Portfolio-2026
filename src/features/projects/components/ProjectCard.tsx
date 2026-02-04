@@ -6,7 +6,7 @@ interface ProjectCardProps {
   project: Project;
 }
 
-export const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
+export const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <div className="group min-w-[400px] md:min-w-[500px] glass p-8 rounded-3xl hover:bg-white/10 transition-all duration-500">
       {/* Project Number */}

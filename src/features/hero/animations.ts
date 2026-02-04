@@ -12,7 +12,7 @@ export const animateHeroText = (element: HTMLElement): gsap.core.Tween => {
   });
 };
 
-export const animateHeroWords = (elements: HTMLElement[]): gsap.core.Timeline => {
+export const animateHeroWords = (elements: HTMLElement[]): gsap.core.Tween => {
   return gsap.from(elements, {
     y: 50,
     opacity: 0,

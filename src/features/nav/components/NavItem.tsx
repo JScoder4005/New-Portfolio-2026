@@ -8,7 +8,7 @@ interface NavItemProps {
   isActive?: boolean;
 }
 
-export const NavItemComponent = ({ item, isActive = false }: NavItemProps): JSX.Element => {
+export const NavItemComponent = ({ item, isActive = false }: NavItemProps) => {
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>): void => {
     e.preventDefault();
     const id = item.href.replace('#', '');

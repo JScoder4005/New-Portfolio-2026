@@ -5,7 +5,7 @@ import { NavItemComponent } from './NavItem';
 import { Logo } from '@/components/Logo';
 import { NAV_ITEMS, CONTACT } from '@/constants';
 
-export const NavBar = (): JSX.Element => {
+export const NavBar = () => {
   const { progress } = useScrollProgress();
   const isScrolled = progress > 5;
 

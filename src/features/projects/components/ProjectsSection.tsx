@@ -81,7 +81,7 @@ const projectsData = [
   },
 ];
 
-export const ProjectsSection = (): JSX.Element => {
+export const ProjectsSection = () => {
   return (
     <section id="projects" className="w-full">
       <HeroParallax products={projectsData} />

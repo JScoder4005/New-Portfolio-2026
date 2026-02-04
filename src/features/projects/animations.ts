@@ -3,7 +3,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-export const animateProjectCards = (elements: HTMLElement[]): gsap.core.Timeline => {
+export const animateProjectCards = (elements: HTMLElement[]): gsap.core.Tween => {
   return gsap.from(elements, {
     scrollTrigger: {
       trigger: elements[0],

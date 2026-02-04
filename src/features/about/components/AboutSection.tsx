@@ -8,7 +8,7 @@ import { CardSpotlight } from '@/components/ui/card-spotlight';
 import { SKILLS, STATS, CORE_COMPETENCIES, EXPERIENCES } from '@/constants';
 
 
-export const AboutSection = (): JSX.Element => {
+export const AboutSection = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
   const textRef = useRef<HTMLDivElement>(null);
   const skillsTitleRef = useRef<HTMLHeadingElement>(null);

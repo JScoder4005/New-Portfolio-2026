@@ -1,3 +1,3 @@
-import type { NavItem } from '../types';
+import type { NavItem } from '@/shared/types';
 
 export { NavItem };

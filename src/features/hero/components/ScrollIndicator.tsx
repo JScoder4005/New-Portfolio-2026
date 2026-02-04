@@ -1,6 +1,6 @@
 'use client';
 
-export const ScrollIndicator = (): JSX.Element => {
+export const ScrollIndicator = () => {
   return (
     <div className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-float">
       <span className="text-xs text-muted-foreground uppercase tracking-wider">Scroll</span>

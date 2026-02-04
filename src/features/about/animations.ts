@@ -18,7 +18,7 @@ export const animateAboutSection = (element: HTMLElement): gsap.core.Tween => {
   });
 };
 
-export const animateAboutItems = (elements: HTMLElement[]): gsap.core.Timeline => {
+export const animateAboutItems = (elements: HTMLElement[]): gsap.core.Tween => {
   return gsap.from(elements, {
     scrollTrigger: {
       trigger: elements[0],

@@ -2,11 +2,16 @@
 
 A modern, stunning portfolio website built with Next.js 16, featuring advanced animations, 3D graphics, and a premium user experience.
 
+## 🌐 Live Demo
+
+**✨ [View Live Portfolio](https://new-portfolio-2026-lac.vercel.app/)** ✨
+
 ![Next.js](https://img.shields.io/badge/Next.js-16.1.6-black?logo=next.js)
 ![React](https://img.shields.io/badge/React-19.2.3-61dafb?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.x-38bdf8?logo=tailwindcss)
-![pnpm](https://img.shields.io/badge/pnpm-8.x-f69220?logo=pnpm)
+![pnpm](https://img.shields.io/badge/pnpm-9.x-f69220?logo=pnpm)
+![Deployment](https://img.shields.io/badge/Deployment-Live%20on%20Vercel-00C7B7?logo=vercel)
 
 ## ✨ Features
 
@@ -192,9 +197,9 @@ Contributions, issues, and feature requests are welcome!
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Uday**
 - GitHub: [@JScoder4005](https://github.com/JScoder4005)
-- Portfolio: [Your Live Site]
+- Portfolio: [https://new-portfolio-2026-lac.vercel.app/](https://new-portfolio-2026-lac.vercel.app/)
 
 ## 🙏 Acknowledgments
 

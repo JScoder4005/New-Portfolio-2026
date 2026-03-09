@@ -24,9 +24,9 @@ export const HeroSection = () => {
             <span className="block mt-4">
               Full Stack Developer
             </span>
-            {/* <span className="block text-muted-foreground text-4xl md:text-6xl mt-4">
-              & DevOps Engineer
-            </span> */}
+            <span className="block text-muted-foreground text-4xl md:text-6xl mt-4">
+              &amp; DevOps Engineer
+            </span>
           </h1>
 
           <TextGenerateEffect
@@ -34,10 +34,16 @@ export const HeroSection = () => {
             className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto"
           />
 
-          <div className="flex items-center justify-center pt-8">
+          <div className="flex items-center justify-center gap-4 pt-8 flex-wrap">
             <button className="px-8 py-4 glass rounded-full font-medium hover:bg-white/10 transition-all duration-300 hover:scale-105">
               Download CV
             </button>
+            <a
+              href="#projects"
+              className="px-8 py-4 rounded-full font-medium bg-linear-to-r from-primary via-secondary to-accent hover:shadow-lg hover:shadow-primary/40 transition-all duration-300 hover:scale-105"
+            >
+              View Projects
+            </a>
           </div>
         </div>
       </div>

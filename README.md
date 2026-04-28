@@ -2,7 +2,7 @@
 
 A modern, stunning portfolio website built with Next.js 16, featuring advanced animations, 3D graphics, and a premium user experience.
 
-## 🌐 Live Demo
+## 🌐 Live Demo to access
 
 **✨ [View Live Portfolio](https://new-portfolio-2026-lac.vercel.app/)** ✨
 
